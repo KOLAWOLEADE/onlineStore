@@ -1,11 +1,12 @@
 $(document).ready(function(){
-    $(".move").slick({
-        centermode: true,
-        centerpadding: "50px",
-        slideToShow:5,
+    $("#move").slick({
+        // centermode: true,
+        // centerpadding: "50px",
+        slideToShow:6,
         slideToScroll:1,
-        autoplay: true,
-        autoplaySpeed: 2000,
+        Infinity:true,
+        // autoplay: true,
+        // autoplaySpeed: 2000,
         responsive: [
             {
                 breakpoint: 1024,
