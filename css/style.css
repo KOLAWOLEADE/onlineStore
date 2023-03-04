@@ -1,0 +1,352 @@
+/* .Name1{
+    width: 5px;
+} */
+
+body{
+    background-color: #b1b1b1;
+}
+
+#logo{
+    color: blue;
+    width: 80px;
+    height: 80px;
+}
+
+#carousel1{
+    margin: auto;
+    margin-right: 20px;
+    padding: 15px;
+    
+}
+
+#cat{
+    width: 230px;
+    height: 235px;
+}
+
+.cat{
+    margin: auto;
+    padding: 2px;;
+
+}
+
+#canon{
+    height: 150px;
+}
+
+#Name{
+    background-image: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+h1{
+    text-align: center;
+    text-shadow: black;
+    font-style: oblique;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+
+#car{
+    width: 600px;
+    height: 800px;
+}
+
+#SAFE{
+    margin: auto;
+    margin-top: 10px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h3{
+    font-size: 2vw;
+    margin: 1em;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.carousel-item{
+    width: 1400px;
+    height: 800px;
+}
+
+#Awesome{
+    font-weight: bolder;
+}
+
+.move{
+    display:block;
+}
+
+.container{
+    /* width: 300;
+    height: 300; */
+    position: relative;
+    text-align: center;
+    color: blue;
+    font-weight: bolder;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+  }
+
+  .people{
+    /* width: 700px; */
+    height: 500px;
+  }
+
+
+.price{
+    font-weight: bold;
+    color: red;
+}
+
+.checked{
+    color: goldenrod;
+}
+
+
+.spec{
+  color: #337AF1;
+  font-weight: bold;
+}
+
+.social-mediaIcon{
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.fol{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+    color: white;
+    font-weight: bolder;
+   
+    
+}
+
+#face{
+    color: blue;
+
+}
+
+#twi{
+    color: #6297DB;
+}
+
+#ins{
+    color: #f9423D;
+}
+
+#lin{
+    color: #337AF1;
+}
+
+#you{
+    color: red;
+}
+
+  /* p{
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: block;} */
+
+/* .container {
+    display: flex, flex-direction: row, align-items: center, justify-content: flex-end, writing-mode: vertical-lr width:100px, height:100px, border: solid red 1px;
+  }
+  
+  .rotate {
+    font-size: 30px;
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+  } */
+
+
+/* .container {
+    display: flex, flex-direction: row, align-items: center, justify-content: flex-end, writing-mode: vertical-lr width:100px, height:100px, border: solid red 1px;
+  }
+  
+  .rotate {
+      transform: rotate(180deg); 
+      transform-origin: left top
+  } */
+
+
+
+
+/* Footer */
+/* 
+ul{
+    display: none;
+} */
+
+
+.footer-container{
+    background-color: brown;
+    padding:4rem 0 4rem 0; 
+
+
+}
+
+.footer{
+    width: 80%;
+    height: 40p;
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading{
+ display: flex; 
+    flex-direction: column;
+     margin-right: 4rem;
+}
+
+.footer-heading h2{
+     margin-bottom: 2rem;
+}
+
+.footer-heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover{
+    color: red;
+     transition: 0.3s ease-out;
+} 
+
+.footer-email-form h2 {
+    margin-bottom: 2rem;
+}
+
+#footer-email{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email::placeholder{
+    color: #b1b1b1;
+}
+
+#footer-email-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #f9423D;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+
+}
+
+#footer-email-btn:hover{
+    cursor: pointer;
+    background-color: #337AF1;
+    transition: white;
+    
+}
+
+
+
+/* media queries */
+
+@media screen and (max-width: 800px){
+
+}
+
+
+
+
+.wrapper{
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.carousel{
+    width: 90%;
+    margin: 0px auto;
+
+}
+
+.slick-slide{
+    margin: 10px;
+}
+
+.slick-slide img{
+
+    width: 100%;
+    border: 2px solid #fff;
+    
+}
+
+.wrapper .slick-dots li button:before{
+
+    font-size: 20px;
+    color: white;
+}
+
+
+/* ANOTHER CSS */
+.carouse{
+    position: relative;
+   
+}
+
+/* img{
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    margin-right: 5px;
+    padding: auto;
+} */
+
+.carouse img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.carouse img.active{
+    opacity: 1;
+
+}
+
+
+
+
+
+
+
+
+
